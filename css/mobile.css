@@ -1,0 +1,243 @@
+/* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+
+/* General Styles */
+
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #070707;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .contact a {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.875em;
+    margin: 0;
+  }
+  
+  h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: .875em;
+    line-height: 1.285;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+  
+  /* -------------------- Base Header - Footer Styles -------------------- */
+  
+  header {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  footer {
+    background-color: #717D14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header .content-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  footer {
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  footer .contact {
+    margin-bottom: 50px;
+  }
+  
+  .social .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .social .social-icons p {
+    background-color: #717D14;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social .social-icons p i {
+    font-size: 1.3125em;
+    color: white;
+    text-align: center;
+  }
+  
+  footer .copyright {
+    margin: 20px 0;
+  }
+  
+  /* -------------------- Mobile Styles - Homepage -------------------- */
+  
+  /* Hero Area */
+  
+  .show-desktop {
+    display: none;
+  }
+  
+  header .content-wrapper {
+    width: 100%;
+    margin-top: 50px;
+    background: url(../img/under_construction.svg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+  }
+  
+  header .logo, header .logo a {
+    width: 100%;
+  }
+  
+  .hero-area {
+    margin-top: 30px;
+    background-color: #717D14;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  
+  .hero-area h1 {
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  .button {
+    padding: 10px 36px;
+    margin-bottom: 20px;
+    background-color: #ffffff73;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #e2e3ed;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .button:hover {
+     background-color: #ffffff;
+     color: #717D14;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .map {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map iframe, .map figure {
+    width: 100%;
+  }
+  
+  h4 {
+    margin: 0;
+  }
+  
+  .contact p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .contact, .visitanos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .contact-content p {
+    margin: 0;
+  }
+  
+  footer p {
+    color: #e2e3ed;
+  }

@@ -1,0 +1,110 @@
+
+  /* ==========================================================================
+       EXAMPLE Media Queries for Responsive Design.
+       These examples override the primary ('mobile first') styles.
+       Modify as content requires.
+       ========================================================================== */
+  
+  @media only screen and (min-width:768px) {
+    /*Tablet styles here*/
+    /* General styles */
+    .hide-desktop {
+      display: none;
+    }
+    .show-desktop {
+      display: block;
+    }
+    .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
+    }
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+    }
+    .hero-area {
+      padding-top: 35px;
+      padding-bottom: 15px;
+    }
+    
+    main {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
+    .map iframe {
+      width: 50vw;
+      max-height: 350px;
+    }
+    .contact {
+      margin-top: 0;
+    }
+    .contact p {
+      font-size: 1.2em;
+    }
+    /* Header */
+    header {
+      justify-content: space-around;
+      padding: 33px 0;
+    }
+    header .content-wrapper {
+      width: 100%;
+      min-height: 400px;
+    }
+    header figure {
+      width: 100%;
+    }
+    /* Hero Area */
+    .hero-area {
+      padding-top: 15px;
+      min-height: 200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .hero-area h1 {
+      font-size: 3em;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .button {
+      margin-top: 10px;
+    }
+    .contact a {
+      text-decoration: underline;
+    }
+    /* Footer */
+    footer .content-wrapper {
+      width: 65%;
+      margin: 100px 0;
+    }
+    footer .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+    footer .contact {
+      margin-bottom: 0;
+    }
+    footer h4 {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+    footer p {
+      line-height: 1.285;
+      font-size: 1.2em;
+    }
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+    footer .copyright, .nea {
+      width: 50%;
+    }
